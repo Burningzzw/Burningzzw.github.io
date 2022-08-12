@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>lua | Burning&#39;s Blog</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/img/favicon.ico">
+    <meta name="description" content="暂无">
+    <meta name="baidu-site-verification" content="pkJWXh8t4k">
+    
+    <link rel="preload" href="/assets/css/0.styles.1fd29acf.css" as="style"><link rel="preload" href="/assets/js/app.8d3c0f01.js" as="script"><link rel="preload" href="/assets/js/2.d4e8fde0.js" as="script"><link rel="preload" href="/assets/js/8.cf0ea112.js" as="script"><link rel="prefetch" href="/assets/js/3.93141cbb.js"><link rel="prefetch" href="/assets/js/4.07779c44.js"><link rel="prefetch" href="/assets/js/5.b75a5cb0.js"><link rel="prefetch" href="/assets/js/6.3c4d9a66.js"><link rel="prefetch" href="/assets/js/7.ab62dc8c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.1fd29acf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/favicon.ico" alt="Burning's Blog" class="logo"> <span class="site-name can-hide">Burning's Blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="编程语言" class="dropdown-title"><span class="title">编程语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="编程语言" class="mobile-dropdown-title"><span class="title">编程语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/OS/Centos/" class="nav-link">
+  C
+</a></li><li class="dropdown-item"><!----> <a href="/OS/Ubuntu/" class="nav-link">
+  Python
+</a></li><li class="dropdown-item"><!----> <a href="/OS/Manjaro/" class="nav-link">
+  Golang
+</a></li><li class="dropdown-item"><!----> <a href="/OS/MacOS/" class="nav-link">
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/OS/Windows/" class="nav-link">
+  C++
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/js/" class="nav-link">
+  Javascript
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/js/" class="nav-link">
+  Html
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="脚本语言" class="dropdown-title"><span class="title">脚本语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="脚本语言" class="mobile-dropdown-title"><span class="title">脚本语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/backend/python/" class="nav-link">
+  Shell
+</a></li><li class="dropdown-item"><!----> <a href="/backend/Flask/" class="nav-link">
+  lua
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/database/mysql/" class="nav-link">
+  MYSQL
+</a></li><li class="dropdown-item"><!----> <a href="/database/mongodb/" class="nav-link">
+  MongoDB
+</a></li><li class="dropdown-item"><!----> <a href="/database/oracle/" class="nav-link">
+  Oracle
+</a></li><li class="dropdown-item"><!----> <a href="/database/redis/" class="nav-link">
+  Redis
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="配置管理" class="dropdown-title"><span class="title">配置管理</span> <span class="arrow down"></span></button> <button type="button" aria-label="配置管理" class="mobile-dropdown-title"><span class="title">配置管理</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/CM/git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/CM/svn/" class="nav-link">
+  SVN
+</a></li><li class="dropdown-item"><!----> <a href="/CM/ansible/" class="nav-link">
+  Ansible
+</a></li><li class="dropdown-item"><!----> <a href="/CM/proxmox/" class="nav-link">
+  Proxmox
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Linux" class="dropdown-title"><span class="title">Linux</span> <span class="arrow down"></span></button> <button type="button" aria-label="Linux" class="mobile-dropdown-title"><span class="title">Linux</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/CI/jenkins/" class="nav-link">
+  嵌入式驱动开发
+</a></li><li class="dropdown-item"><!----> <a href="/CI/docker/" class="nav-link">
+  嵌入式应用开发
+</a></li></ul></div></div><div class="nav-item"><a href="/friendlink/" class="nav-link">
+  友链
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于" class="dropdown-title"><span class="title">关于</span> <span class="arrow down"></span></button> <button type="button" aria-label="关于" class="mobile-dropdown-title"><span class="title">关于</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/about/me/" class="nav-link">
+  关于我
+</a></li><li class="dropdown-item"><!----> <a href="/about/blog/" class="nav-link">
+  关于博客
+</a></li><li class="dropdown-item"><!----> <a href="/about/softexam/" class="nav-link">
+  软考
+</a></li><li class="dropdown-item"><!----> <a href="/about/game/" class="nav-link">
+  游戏
+</a></li><li class="dropdown-item"><!----> <a href="/about/tools/" class="nav-link">
+  好用的工具
+</a></li></ul></div></div> <a href="https://www.github.com/meizhaohui/vueblog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="编程语言" class="dropdown-title"><span class="title">编程语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="编程语言" class="mobile-dropdown-title"><span class="title">编程语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/OS/Centos/" class="nav-link">
+  C
+</a></li><li class="dropdown-item"><!----> <a href="/OS/Ubuntu/" class="nav-link">
+  Python
+</a></li><li class="dropdown-item"><!----> <a href="/OS/Manjaro/" class="nav-link">
+  Golang
+</a></li><li class="dropdown-item"><!----> <a href="/OS/MacOS/" class="nav-link">
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/OS/Windows/" class="nav-link">
+  C++
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/js/" class="nav-link">
+  Javascript
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/js/" class="nav-link">
+  Html
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="脚本语言" class="dropdown-title"><span class="title">脚本语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="脚本语言" class="mobile-dropdown-title"><span class="title">脚本语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/backend/python/" class="nav-link">
+  Shell
+</a></li><li class="dropdown-item"><!----> <a href="/backend/Flask/" class="nav-link">
+  lua
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/database/mysql/" class="nav-link">
+  MYSQL
+</a></li><li class="dropdown-item"><!----> <a href="/database/mongodb/" class="nav-link">
+  MongoDB
+</a></li><li class="dropdown-item"><!----> <a href="/database/oracle/" class="nav-link">
+  Oracle
+</a></li><li class="dropdown-item"><!----> <a href="/database/redis/" class="nav-link">
+  Redis
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="配置管理" class="dropdown-title"><span class="title">配置管理</span> <span class="arrow down"></span></button> <button type="button" aria-label="配置管理" class="mobile-dropdown-title"><span class="title">配置管理</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/CM/git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/CM/svn/" class="nav-link">
+  SVN
+</a></li><li class="dropdown-item"><!----> <a href="/CM/ansible/" class="nav-link">
+  Ansible
+</a></li><li class="dropdown-item"><!----> <a href="/CM/proxmox/" class="nav-link">
+  Proxmox
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Linux" class="dropdown-title"><span class="title">Linux</span> <span class="arrow down"></span></button> <button type="button" aria-label="Linux" class="mobile-dropdown-title"><span class="title">Linux</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/CI/jenkins/" class="nav-link">
+  嵌入式驱动开发
+</a></li><li class="dropdown-item"><!----> <a href="/CI/docker/" class="nav-link">
+  嵌入式应用开发
+</a></li></ul></div></div><div class="nav-item"><a href="/friendlink/" class="nav-link">
+  友链
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于" class="dropdown-title"><span class="title">关于</span> <span class="arrow down"></span></button> <button type="button" aria-label="关于" class="mobile-dropdown-title"><span class="title">关于</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/about/me/" class="nav-link">
+  关于我
+</a></li><li class="dropdown-item"><!----> <a href="/about/blog/" class="nav-link">
+  关于博客
+</a></li><li class="dropdown-item"><!----> <a href="/about/softexam/" class="nav-link">
+  软考
+</a></li><li class="dropdown-item"><!----> <a href="/about/game/" class="nav-link">
+  游戏
+</a></li><li class="dropdown-item"><!----> <a href="/about/tools/" class="nav-link">
+  好用的工具
+</a></li></ul></div></div> <a href="https://www.github.com/meizhaohui/vueblog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>lua</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/script/lua.html#表" class="sidebar-link">表</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/script/lua.html#模块与包" class="sidebar-link">模块与包</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="lua"><a href="#lua" class="header-anchor">#</a> lua</h1> <blockquote><p>lua安装</p></blockquote> <p><a href="https://www.runoob.com/lua/lua-environment.html" target="_blank" rel="noopener noreferrer">Lua 环境安装 | 菜鸟教程<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <ul><li><p>需要依赖libreadline-dev</p> <div class="language-shell line-numbers-mode"><pre class="language-shell"><code><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> libreadline-dev
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li></ul> <blockquote><p>lua使用</p></blockquote> <div class="language-shell line-numbers-mode"><pre class="language-shell"><code><span class="token comment">#退出交互式编程模式</span>
+ctrl+z
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="表"><a href="#表" class="header-anchor">#</a> 表</h2> <div class="language-vim line-numbers-mode"><pre class="language-vim"><code>    # 表名不要取名为table
+  <span class="token number">1</span> tab1<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+  <span class="token number">2</span> 
+  <span class="token number">3</span> tab1<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">=</span><span class="token string">&quot;apple&quot;</span>
+  <span class="token number">4</span> tab1<span class="token punctuation">[</span><span class="token string">&quot;wow&quot;</span><span class="token punctuation">]</span><span class="token operator">=</span><span class="token string">&quot;banana&quot;</span>
+  <span class="token number">5</span> 
+  <span class="token number">6</span> <span class="token function">print</span><span class="token punctuation">(</span><span class="token function">type</span><span class="token punctuation">(</span>tab1<span class="token punctuation">)</span><span class="token punctuation">)</span>
+  <span class="token number">7</span> 
+  <span class="token number">8</span> <span class="token keyword">for</span> <span class="token keyword">k</span><span class="token punctuation">,</span>v <span class="token keyword">in</span> <span class="token function">pairs</span><span class="token punctuation">(</span>tab1<span class="token punctuation">)</span> do
+  <span class="token number">9</span>         <span class="token function">print</span><span class="token punctuation">(</span><span class="token keyword">k</span><span class="token punctuation">,</span>v<span class="token punctuation">)</span>
+ <span class="token number">10</span> end
+ <span class="token number">11</span> 
+ <span class="token number">12</span> tab1<span class="token operator">=</span>nil
+ <span class="token number">13</span> 
+ <span class="token number">14</span> fruits<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">&quot;apple&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;orange&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;banana&quot;</span><span class="token punctuation">}</span>
+ <span class="token number">15</span> 
+ <span class="token number">16</span> table<span class="token operator">.</span><span class="token function">insert</span><span class="token punctuation">(</span>fruits<span class="token punctuation">,</span><span class="token string">&quot;bear&quot;</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span>
+ <span class="token number">17</span> 
+ <span class="token number">18</span> <span class="token function">print</span><span class="token punctuation">(</span>table<span class="token operator">.</span><span class="token function">concat</span><span class="token punctuation">(</span>fruits<span class="token punctuation">)</span><span class="token punctuation">)</span>
+ <span class="token number">19</span> 
+ <span class="token number">20</span> <span class="token function">print</span><span class="token punctuation">(</span>table<span class="token operator">.</span><span class="token function">concat</span><span class="token punctuation">(</span>fruits<span class="token punctuation">,</span><span class="token string">&quot;-&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+ <span class="token number">21</span> 
+ <span class="token number">22</span> <span class="token function">print</span><span class="token punctuation">(</span>table<span class="token operator">.</span><span class="token function">concat</span><span class="token punctuation">(</span>fruits<span class="token punctuation">,</span><span class="token string">&quot; &quot;</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+ <span class="token number">23</span> 
+<span class="token string">&quot;6.lua&quot;</span> 34L<span class="token punctuation">,</span> 406C                                             <span class="token number">16</span><span class="token punctuation">,</span><span class="token number">27</span>        顶端
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><h2 id="模块与包"><a href="#模块与包" class="header-anchor">#</a> 模块与包</h2> <ul><li>模块7.lua</li></ul> <div class="language-vim line-numbers-mode"><pre class="language-vim"><code>  <span class="token number">1</span> module<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+  <span class="token number">2</span> 
+  <span class="token number">3</span> module<span class="token operator">.</span>name<span class="token operator">=</span><span class="token string">&quot;moudle1&quot;</span>
+  <span class="token number">4</span> 
+  <span class="token number">5</span> local spec<span class="token operator">=</span><span class="token string">&quot;1.0&quot;</span> #本地变量不能加module前缀
+  <span class="token number">6</span> 
+  <span class="token number">7</span> <span class="token keyword">function</span> module<span class="token operator">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token punctuation">)</span> # 全局变量要加module前缀
+  <span class="token number">8</span>         io<span class="token operator">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">&quot;this is  &quot;</span><span class="token operator">.</span><span class="token operator">.</span>spec<span class="token punctuation">)</span>
+  <span class="token number">9</span> end
+ <span class="token number">10</span> 
+ <span class="token number">11</span> <span class="token keyword">return</span> module
+ <span class="token number">12</span> 
+ <span class="token number">13</span> 
+~                                                                               
+~                                                                                                                                                            
+~                                                                               
+<span class="token string">&quot;7.lua&quot;</span> 13L<span class="token punctuation">,</span> 127C 已写入                                      <span class="token number">10</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token operator">-</span><span class="token number">1</span>       全部
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><ul><li>使用7.lua中的module函数</li></ul> <div class="language-vim line-numbers-mode"><pre class="language-vim"><code>  <span class="token number">1</span> #将module函数赋值给module别名，不能调用module中的本地变量spec
+  <span class="token number">2</span> local module<span class="token operator">=</span><span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;7&quot;</span><span class="token punctuation">)</span>
+  <span class="token number">3</span> 
+  <span class="token number">4</span> module<span class="token operator">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token number">5</span> 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://www.github.com/meizhaohui/vueblog/edit/master/myblog/docs/script/lua.md" target="_blank" rel="noopener noreferrer">帮助我们改善此页面</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.8d3c0f01.js" defer></script><script src="/assets/js/2.d4e8fde0.js" defer></script><script src="/assets/js/8.cf0ea112.js" defer></script>
+  </body>
+</html>
